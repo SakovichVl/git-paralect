@@ -1,0 +1,48 @@
+.toolbar {
+    display: flex;
+    height: 7vh;
+    background: #0064EB;
+    flex-direction: row;
+    align-items: center;
+}
+
+.github-link {
+    width: 41px;
+    height: 40px;
+    display: flex;
+    margin-left: 41px;
+    float: left;
+}
+
+.search {
+    margin-left: 22px;
+}
+
+.input-search {
+    width: 500px;
+    height: 40px;
+    border-radius: 6px;
+    border: 0px;
+    background: url(../../assets/icons/search.png) no-repeat scroll 7px 7px;
+    background-position: left 19px center;
+    background-color: #ffffff;
+    padding-left:44px;
+}
+
+@media (max-width:1000px){
+    .search{
+        width: 60%;
+    }
+
+    .input-search{
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px){
+    .github-link{
+        width: 31px;
+        margin-left: 10px;
+    }
+}
+    

@@ -1,0 +1,18 @@
+.initial-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.initial-img {
+    width: 65px;
+}
+
+.initial-a {
+    font-size: 24px;
+    color: #808080;
+    margin-top: 47px;
+    text-align: center;
+}

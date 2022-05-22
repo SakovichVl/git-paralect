@@ -1,0 +1,67 @@
+.user-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 39px;
+    margin-left: 57px;
+    width: 480px;
+}
+
+.user-photo {
+    height: 280px; 
+    border-radius: 50%;
+}
+
+.user-name {
+    margin-top: 10px;
+}
+
+.p-name {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.user-nickname {
+    margin-top: 0px;
+}
+
+.a-nickname {
+    text-decoration: none;
+}
+
+.subscriptions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#follow-text {
+    font-size: 16px;
+    margin-right: 14px;
+}
+
+#follow-img {
+    margin-right: 4px;
+    height: 14px;
+}
+
+
+@media (max-width:1000px) {
+    .user-block {
+        align-items: center;
+        margin: 0px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .user-block {
+        width: 310px;
+    }
+    
+    .user-photo {
+        width: 200px;
+        height: 200px;
+    }
+}
